@@ -11,7 +11,7 @@ import {GroupService} from '../core/group-mng/service/group.service';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  titlePage = 'User list';
+  titlePage = 'User List';
   users: IUser[] = [];
   groupList: IGroup[];
   page: number = 1;
@@ -37,14 +37,13 @@ export class UserComponent implements OnInit {
   }
 
   delete(id:number) {
-    alert("delete item")
-    let newArrayAfterDelete = [];
+    let remain = [];
     this.users.map(user =>{
       if(user.id != id){
-        newArrayAfterDelete.push(user);
+        remain.push(user);
       }
     });
-    this.users = newArrayAfterDelete;
+    this.users = remain;
   }
 
   search(event) {

@@ -8,92 +8,118 @@ export class UserService {
   users: IUser [] = [
     {
       id: 1,
-      name: 'name1',
-      email: 'email1@gmail.com',
+      name: 'trung1',
+      email: 'trung1@gmail.com',
       group_id: 1,
     },
     {
       id: 2,
-      name: 'name2',
-      email: 'email2@gmail.com',
+      name: 'trung2',
+      email: 'trung2@gmail.com',
       group_id: 2,
     },
     {
       id: 3,
-      name: 'name3',
-      email: 'email3@gmail.com',
+      name: 'trung3',
+      email: 'trung3@gmail.com',
       group_id: 3
     },
     {
       id: 4,
-      name: 'hong doan',
-      email: 'doan@codegym.vn',
+      name: 'trung4',
+      email: 'trung4@codegym.vn',
       group_id: 3
     },
     {
       id: 5,
-      name: 'dang pham',
-      email: 'dangpham@codegym.vn',
+      name: 'trung5',
+      email: 'trung5@codegym.vn',
       group_id: 2
     },
     {
       id: 6,
-      name: 'duc trung',
-      email: 'trungho@codegym.vn',
+      name: 'trung6',
+      email: 'trung6@codegym.vn',
       group_id: 3
     },
     {
       id: 7,
-      name: 'vinh vat vo',
-      email: 'trungho@codegym.vn',
+      name: 'trung7',
+      email: 'trung7@codegym.vn',
       group_id: 3
     },
     {
       id: 8,
-      name: 'thi thuy',
-      email: 'test-email-8@codegym.vn',
+      name: 'trung8',
+      email: 'trung8@codegym.vn',
       group_id: 3
     },
     {
       id: 9,
-      name: 'van bang',
-      email: 'test-email-5@codegym.vn',
+      name: 'trung9',
+      email: 'trung9@codegym.vn',
       group_id: 3
     },
     {
       id: 10,
-      name: 'khuat phong',
-      email: 'test-email-7@codegym.vn',
+      name: 'trung10',
+      email: 'trung10@codegym.vn',
       group_id: 3
     },
     {
       id: 11,
-      name: 'van tuan',
-      email: 'vantuan@codegym.vn',
+      name: 'trung11',
+      email: 'trung11@codegym.vn',
       group_id: 3
     },
     {
       id: 12,
-      name: 'le hieu',
-      email: 'hieule@codegym.vn',
+      name: 'trung12',
+      email: 'trung12@codegym.vn',
       group_id: 3
     },    {
       id: 13,
-      name: 'test name 3',
-      email: 'test-email-1@codegym.vn',
+      name: 'trung13',
+      email: 'trung13@codegym.vn',
       group_id: 3
     },    {
       id: 14,
-      name: 'test name 1',
-      email: 'test-email-2@codegym.vn',
+      name: 'trung14',
+      email: 'trung14@codegym.vn',
       group_id: 3
     },    {
       id: 15,
-      name: 'test name 2',
-      email: 'test-email-3@codegym.vn',
+      name: 'trung15',
+      email: 'trung15@codegym.vn',
       group_id: 3
     },
-
+    {
+      id: 16,
+      name: 'trung16',
+      email: 'trung16@codegym.vn',
+      group_id: 3
+    },
+    {
+      id: 17,
+      name: 'trung17',
+      email: 'trung17@codegym.vn',
+      group_id: 3
+    },    {
+      id: 18,
+      name: 'trung18',
+      email: 'trung18@codegym.vn',
+      group_id: 3
+    },    {
+      id: 19,
+      name: 'trung19',
+      email: 'trung19@codegym.vn',
+      group_id: 3
+    },    {
+      id: 20,
+      name: 'trung20',
+      email: 'trung20@codegym.vn',
+      group_id: 3
+    },
   ];
 
   constructor() {

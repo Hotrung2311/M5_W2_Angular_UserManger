@@ -8,15 +8,15 @@ export class GroupService {
   private listGroup: IGroup[] = [
     {
       id: 1,
-      name: 'Admin'
+      name: 'Male'
     },
     {
       id: 2,
-      name: 'Customer'
+      name: 'Female'
     },
     {
       id: 3,
-      name: 'Staff'
+      name: 'Other'
     }
 
   ]
@@ -24,6 +24,6 @@ export class GroupService {
   constructor() { }
 
   getGroupList(){
-    return this.listGroup
+    return this.listGroup;
   }
 }
